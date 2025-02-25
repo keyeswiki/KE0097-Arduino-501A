@@ -1,55 +1,6 @@
-Arduino电子迷基础元件包套件501A
+# 3、Arduino
 
-![](media/72c8eb12bae6e4ed739ab2bfd09ca8bd.jpg)
-
-
-# 1、说明
-
-这个套件包含我们玩单片机时使用到的常用元件，如不同阻值的电阻、不同颜色的LED灯、红外遥控、传感器、显示器等。它适用于各种单片机和树莓派。我们还会根据这些元件，提供一些基于Arduino开发板的一些学习课程，如LED闪烁实验、红外控灯实验、红外测距实验、温湿度检测实验等，让你对这些电子元件和Arduino开发板有个初步的了解。
-
-# 2、清单
-
-
-|编码|名称|描述|数量|图片|
-|-|-|-|-|-|
-|1|LED|F5-红发红-短|3|![](media/1eba37a568de56317c9b9a59738e76ee.png)|
-|2|LED|F5-黄发黄-短|3|![](media/c871ecd95ce2be359e1ac2babcfcfaeb.png)|
-|3|LED|F5-蓝发蓝-短|3|![](media/88d6bec911781d5e62b2e2080e5df93e.png)|
-|4|LED|F5-绿发绿-短|3|![](media/fb6f7a17d1cd0704124dd36063ef06bd.png)|
-|5|LED|10MM乳白 共阳RGB|1|![](media/ddadb7881228c58f0e0fcdd0380ed68b.jpg)|
-|6|电阻|碳膜色环 1/4W 1% 220R 编带|10|![](media/f6a8649da4e79abb2f1d15479f073bb5.jpg)|
-|7|电阻|碳膜色环 1/4W 1% 1K 编带|10|![](media/f6a8649da4e79abb2f1d15479f073bb5.jpg)|
-|8|电阻|碳膜色环 1/4W 1% 10K 编带|10|![](media/f6a8649da4e79abb2f1d15479f073bb5.jpg)|
-|9|电阻|碳膜色环 1/4W 1% 100K 编带|10|![](media/f6a8649da4e79abb2f1d15479f073bb5.jpg)|
-|10|电解电容|100UF 16V 5*11MM 插件|10|![](media/21886581bcce7e7f1198116ed5de42dc.jpg)|
-|11|电解电容|220UF 35V 8*12MM 插件|10|![](media/48cfe7faed32a1113ff0e4bde3de1487.jpg)|
-|12|按键帽|A24 白帽(12*12*7.3)圆|1|![](media/7f94aded9f45d50e15c2e6281a1bebe3.jpg)|
-|13|按键帽|A24 红帽(12*12*7.3)圆|1|![](media/f4522a2209f122d0b094cb5e4755b211.jpg)|
-|14|按键帽|A24 蓝帽(12*12*7.3)圆|1|![](media/0d34492b10fc29699d3b4a1ac7763e7d.jpg)|
-|15|按键帽|A24 黄帽(12*12*7.3)圆|1|![](media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg)|
-|16|轻触按键|12*12*7.3MM 插件|4|![](media/4be4ce2e80aa9f06e7f02d37c7c5a42a.jpg)|
-|17|蜂鸣器|有源 12*9.5MM 5V 普通分体 2300Hz|1|![](media/5a749ec6435e3982bf4dbdc5eaf7b51e.jpg)|
-|18|遥控器|JMP-1 17键86*40*6.5MM 黑色|1|![](media/ab057e99cf396a0688eaa3927951ef8d.jpg)|
-|19|光敏电阻|5516 亮电阻5-10KΩ 暗电阻0.2MΩ|3|![](media/c09cb519c3304d4c23eb6c479657c4d0.jpg)|
-|20|传感器元件|红外接收 VS1838B|1|![](media/d6abf05eebac06b01165b65ee5ad0fc3.jpg)|
-|21|滚珠开关|HDX-2801 两脚一样|1|![](media/4c38f358a550b7fe0a3710264d51caf2.jpg)|
-|22|数码管|一位0.56英寸共阴红|1|![](media/7787953ef7619ae3753a3324751ceffc.jpg)|
-|23|LCD|1602 COB 5V 蓝屏（一个电阻）|1|![](media/dfd939416f3d37aab7cdfb9dd20d39a1.png)|
-|24|可调电位器|3386 MU 103（三针直排）|2|![](media/6d6025bc96667b6f44070355f2041f13.jpg)|
-|25|keyes传感器|keyes 人体红外热释电传感器(焊盘孔) 红色 环保|1|![](media/dcd02b9f029d3deabeda605a8ce0853b.jpg)|
-|26|keyes传感器|keyes DHT11温湿度传感器(焊盘孔) 红色 环保|1|![](media/bfd1437299a2f550f6ef8286ce135ea7.jpg)|
-|27|keyes传感器|keyes 超声波传感器(焊盘孔) 红色 环保|1|![](media/8273dc82869fd378e7cfaea91ace60f5.jpg)|
-|28|排针|1*40直针 黑色 2.54|1|![](media/9a4ce90626c96645a87b3c7b1a82a8a6.png)|
-|29|面包板|ZY-60 400孔白色（纸卡包装）|1|![](media/5b59c759d98d3d24894a09e0ac878717.png)|
-|30|面包线|面包板连接线30根|1|![](media/aa5f4d54d5b8ec553906f3890bc2df0c.png)|
-|31|杜邦线|母对母20CM/40P/2.54/10股铜包铝 24号线BL|0.5|![](media/9f5052e88a31bc42e932c08eaddc049b.jpg)|
-|32|杜邦线|公对母20CM/40P/2.54/10股铜包铝 24号线BL|0.5|![](media/2968b2f5f40097654e9c6edb62f8fc91.jpg)|
-|33|杜邦线|公对公20CM/40P/2.54/10股铜包铝 24号线BL|0.5|![](media/8557dbac75e19633c3546ad39b5c66ec.jpg)|
-|34|电阻卡|100*70MM|1|![](media/93852b245f0ae356fac222dadb3dbe24.jpg)|
-
-
-
-# 3、Arduino IDE和驱动的安装
+# 3.1、Arduino IDE和驱动的安装
 
 当我们拿到开发板时，首先我们要安装Arduino IDE和驱动，相关文件我们可以在官网上找到，以下链接是包含各种系统、各种版本的Arduino IDE和驱动任你选择。
 
@@ -112,7 +63,7 @@ Arduino电子迷基础元件包套件501A
 
 ![](media/af9806622ecf816c62f7597448a3cc5f.png)
 
-# 4、Arduino IDE的使用方法
+# 3.2、Arduino IDE的使用方法
 
 Keyes UNO R3
 开发板的USB驱动安装成功之后，我们可以在Windows设备管理器中找到相应的串口。
@@ -183,7 +134,7 @@ Serial.println("Hello World!");
 
 那么恭喜你，你的第一个程序已经成功了！！！
 
-# 5、实验课程
+# 3.3、实验课程
 
 ## 实验一 LED 闪烁实验
 
@@ -2069,14 +2020,5 @@ delay(500);//延迟0.5秒
 按照上图接好线，上传好代码，上电后，检测到人体运动时Arduino UNO板上D13的指示灯亮起，串口监视器中显示"Somebody is in this area!"；没有检测到人体运动时Arduino UNO板上D13的指示灯熄灭，串口监视器中显示"No one!"。
 
 ![](media/855ae7997253b7ec304fbb5aa3403f5d.png)
-
-# 6、相关资料链接
-
-<https://pan.baidu.com/s/18ee8PcB6l85TXk7w8hVYwA>
-
-提取码：lc9w
-
-
-
 
 
